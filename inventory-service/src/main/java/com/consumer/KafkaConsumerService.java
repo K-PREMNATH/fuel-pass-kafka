@@ -17,6 +17,6 @@ public class KafkaConsumerService {
         LOGGER.info("Message received by consumer: " + content);
         TopicReq topicReq = gson.fromJson(content, TopicReq.class);
         LOGGER.info("ConvertedTopic--------------->"+topicReq.toString());
-        
+
     }
 }
